@@ -198,6 +198,7 @@ class Quadrado(CalculaArea, CalculaVolume):
     @property
     def volume(self):
         return self.calcula_volume()
+        ...
 ```
 
 Perceba que na <b>classe Quadrado</b>, herdei e criei propriedades somente para <b>área e volume</b>. Não utilizei a
